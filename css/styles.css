@@ -1,0 +1,73 @@
+/* html{
+    background-image: ;
+} */
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: pink;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.navbar{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover{
+    color: rgb(240, 70, 166);
+}
+
+main{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#image{
+    height: 500px;
+    border-radius: 50px;
+}
+
+#big-question{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(228, 62, 125);
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.letter-buttons{
+    background-color: pink;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(228, 62, 125);
+}
+
+.letter-buttons:hover{
+    color: white;
+}
