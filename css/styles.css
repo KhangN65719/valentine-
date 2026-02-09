@@ -20,19 +20,8 @@ header{
 .navbar{
     display: flex;
     text-decoration: none;
+    padding-bottom: 15px;
     gap: 20px;
-}
-
-.navbar a{
-    text-decoration: none;
-    color: white;
-    font-size: 20;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: color 0.2s;
-}
-
-.navbar a:hover{
-    color: rgb(240, 70, 166);
 }
 
 main{ 
