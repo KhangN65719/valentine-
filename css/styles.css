@@ -45,7 +45,7 @@ header{
 .flower-img{
     display: flex;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 1000px;
     height: 250px;
 }
 
