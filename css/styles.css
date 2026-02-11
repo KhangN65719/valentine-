@@ -24,16 +24,29 @@ header{
     gap: 20px;
 }
 
-main{ 
+#main-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
 
+#flowers{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
 #image{
     height: 500px;
     border-radius: 50px;
+}
+
+.flower-img{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    height: 250px;
 }
 
 #big-question{
